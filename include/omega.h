@@ -43,7 +43,7 @@ public:
     };
     //define helper functions which are using inside the omega defintion and parameters
     static double inertiaFactor(double Ik);
-    static double j_Component(int k, double theta, const double &j);
+    static double j_Component(int k, double theta, const double j);
     //Omega is a function which depends on several parameters (see @README for information about the parameters)
     //Omega represents the wobbling frequency associated with the energy spectrum of the Rotor given by the total Hamiltonian H_rot
     static double Omega(X_Set &paramSet, double theta);
